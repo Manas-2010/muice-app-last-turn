@@ -1,0 +1,58 @@
+<html lang="eng">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+    <script src="main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+<title>Songs</title>
+</head>
+<body>
+    <nav class="navbar-inverse" style="position:sticky;top:0;z-index:99999">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <a class="navbar-brand" href="#">Manas N</a>
+        </div>
+        
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="https://manas-2010.github.io/Books/">Books</a></li>
+            <li><a href="https://www.youtube.com/channel/UCOSIwce3raF-othmmsPIG2Q">My YT Channal</a></li>
+            <li><a href="#work">WORK</a></li>
+            <li><a href="#writing">WRITING</a></li>
+            <li><a href="#blog">BLOG</a></li>
+          </ul>
+        </div>
+    
+    </nav>
+
+    <center>
+        <div>
+            <label id="song_name"></label>
+        </div>
+        <button id="rewind" onclick="rewind()">Rewind(if its not rewinding click again)</button>
+        <br>
+        <br>
+        <div>
+            <button id="start" onclick="play_song()">Play / Next(if its not going next / playing click again)</button>
+        </div>
+    </center>
+    <audio id="audio"></audio>
+    </section>
+</body>
+</html>
